@@ -59,6 +59,13 @@
       "email": "rev@gmail.com",
       "password": "12345",
       "createdAt": "2024-11-24T15:40:09.153Z"
+    },
+    {
+      "id": 10,
+      "name": "Kiran",
+      "email": "k@gmail.com",
+      "password": "123456",
+      "createdAt": "2025-08-24T02:01:12.741Z"
     }
   ],
   "transactions": [
@@ -145,6 +152,41 @@
       "amount": 160,
       "type": "expense",
       "ownerId": "6"
+    },
+    {
+      "id": "06eb",
+      "description": "Food",
+      "amount": 1000,
+      "type": "expense",
+      "ownerId": "10"
+    },
+    {
+      "id": "43df",
+      "description": "Salary",
+      "amount": 50000,
+      "type": "income",
+      "ownerId": "10"
+    },
+    {
+      "id": "181a",
+      "description": "Grocery",
+      "amount": 500,
+      "type": "expense",
+      "ownerId": "10"
+    },
+    {
+      "id": "2816",
+      "description": "Phone Bill",
+      "amount": 493,
+      "type": "expense",
+      "ownerId": "10"
+    },
+    {
+      "id": "98d6",
+      "description": "CashBack",
+      "amount": 150,
+      "type": "income",
+      "ownerId": "10"
     }
   ],
   "budgets": {
